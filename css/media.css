@@ -1,0 +1,515 @@
+/* *Responsive Design */
+
+/* *Tablet and Small Laptop */
+
+@media (max-width: 1024px) {
+
+    /* *Navbar */
+
+    .container {
+        width: 90%;
+    }
+
+    .nav-links ul {
+        gap: 18px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .logo h2 {
+        font-size: 21px;
+    }
+
+    /* *Navbar responsive start */
+
+    @media (max-width: 768px) {
+        .navbar .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .navbar ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            width: 100%;
+        }
+
+        .navbar ul li {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    /* *Navbar responsive end */
+
+    /* *Hero */
+
+    .hero-content {
+        gap: 30px;
+    }
+
+    .hero-info h1 {
+        font-size: 34px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+    }
+
+    .image-container img {
+        height: 350px;
+    }
+
+    /* *Features */
+
+    .specification-card {
+        width: 48%;
+    }
+
+    /* *Reviews */
+
+    .reviews-content {
+        gap: 24px;
+    }
+
+    .reviews-summary {
+        width: 280px;
+        padding: 20px;
+    }
+
+    .customer-review {
+        padding: 20px;
+    }
+
+    /* *Related Products */
+
+    .related-products-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .product-card {
+        width: 48%;
+    }
+
+    /* *Footer */
+
+    .footer-content {
+        gap: 25px;
+    }
+
+    .footer-about {
+        width: 30%;
+    }
+
+    .footer-links {
+        width: 18%;
+    }
+}
+
+
+/* *Tablet */
+
+@media (max-width: 768px) {
+
+    /* *Navbar */
+
+    .nav-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px 20px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    /* *Hero */
+
+    .hero {
+        padding-top: 190px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .hero-image,
+    .hero-info {
+        width: 100%;
+    }
+
+    .image-container img {
+        height: 380px;
+    }
+
+    .hero-info h1 {
+        font-size: 36px;
+    }
+
+    .hero-buttons {
+        flex-direction: row;
+    }
+
+    .hero-buttons button {
+        flex: 1;
+        padding: 14px 10px;
+        font-size: 13px;
+    }
+
+    /* *Features */
+
+    .specifications-content {
+        gap: 16px;
+    }
+
+    .specification-card {
+        width: 47%;
+    }
+
+    .specifications-banner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* *Reviews */
+
+    .reviews-content {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .reviews-summary {
+        position: static;
+        width: 100%;
+    }
+
+    .customers-reviews {
+        width: 100%;
+    }
+
+    /* *Related Products */
+
+    .product-card {
+        width: 47%;
+    }
+
+    /* *Footer */
+
+    .footer-content {
+        flex-wrap: wrap;
+        gap: 35px 25px;
+    }
+
+    .footer-about {
+        width: 45%;
+    }
+
+    .footer-links {
+        width: 45%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+/* *Mobile */
+
+@media (max-width: 480px) {
+
+    /* *Global */
+
+    .container {
+        width: 92%;
+    }
+
+    .section-padding,
+    .section-spacing {
+        padding: 40px 0;
+    }
+
+    .section-title {
+        margin-bottom: 25px;
+    }
+
+    .section-title h2 {
+        font-size: 25px;
+    }
+
+    .section-title p {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    /* *Navbar */
+
+    .nav-content {
+        padding: 12px 0;
+        gap: 12px;
+    }
+
+    .logo h2 {
+        font-size: 20px;
+    }
+
+    .logo img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .nav-links ul {
+        gap: 10px 14px;
+    }
+
+    .nav-links a {
+        padding-bottom: 4px;
+        font-size: 12px;
+    }
+
+    /* *Hero */
+
+    .hero {
+        padding-top: 175px;
+        padding-bottom: 40px;
+    }
+
+    .hero-content {
+        gap: 25px;
+    }
+
+    .image-frame {
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .image-container {
+        padding: 12px;
+    }
+
+    .image-container img {
+        height: 250px;
+    }
+
+    .hero-badges {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .hero-badges span {
+        padding: 5px 9px;
+        font-size: 10px;
+    }
+
+    .hero-info h1 {
+        font-size: 29px;
+    }
+
+    .hero-description {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .hero-price {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .hero-price h2 {
+        font-size: 27px;
+    }
+
+    .hero-price del {
+        font-size: 15px;
+    }
+
+    .installments {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero-buttons button {
+        width: 100%;
+        padding: 14px;
+        font-size: 13px;
+    }
+
+    /* *Features */
+
+    .specifications-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .specification-card {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .specification-description {
+        min-height: auto;
+    }
+
+    .specifications-banner {
+        padding: 20px;
+        gap: 18px;
+    }
+
+    .banner-info h3 {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .banner-info p:last-child {
+        line-height: 1.7;
+    }
+
+    .banner-button {
+        white-space: normal;
+    }
+
+    /* *Reviews */
+
+    .reviews .section-title h2 {
+        font-size: 25px;
+    }
+
+    .reviews-summary {
+        padding: 20px 15px;
+    }
+
+    .reviews-summary>h2 {
+        font-size: 42px;
+    }
+
+    .rating-row {
+        gap: 8px;
+    }
+
+    .rating-row span:first-child {
+        width: 45px;
+    }
+
+    .customer-review {
+        padding: 16px;
+    }
+
+    .customer-header {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 18px;
+    }
+
+    .customer-info {
+        gap: 10px;
+    }
+
+    .customer-info>img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .review-date {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .review-date span {
+        font-size: 9px;
+    }
+
+    .customer-comment {
+        font-size: 12px;
+        line-height: 1.8;
+    }
+
+    .summary-stats {
+        gap: 10px;
+    }
+
+    /* *Related Products */
+
+    .related-products .section-title {
+        margin-bottom: 30px;
+    }
+
+    .related-products-content {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .product-card {
+        width: 100%;
+        padding: 18px;
+    }
+
+    .product-image img {
+        height: 200px;
+    }
+
+    .view-accessories {
+        margin-top: 30px;
+    }
+
+    .view-accessories a {
+        margin-top: 0;
+    }
+
+    /* *Footer */
+
+    .footer {
+        padding: 40px 0 20px;
+    }
+
+    .footer-content {
+        gap: 30px 20px;
+    }
+
+    .footer-about {
+        width: 100%;
+    }
+
+    .footer-links {
+        width: 45%;
+        gap: 12px;
+    }
+
+    .footer-bottom {
+        gap: 20px;
+    }
+
+    .footer-bottom>p {
+        line-height: 1.8;
+    }
+
+    .payment-methods {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .payment {
+        width: 58px;
+        height: 32px;
+    }
+}
